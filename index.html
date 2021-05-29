@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Space Invaders</title>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            font-family: 'Century Gothic', sans-serif;
+            font-weight: bold;
+        }
+        #gameArea {
+            width: 815px;
+            height: 830px;
+            border: 1px solid black;
+            margin: 0 auto;
+            position: relative;
+            background-image: url("img/background.jpg");
+        }
+        #defender {
+            position: absolute;
+        }
+        .enemy {
+            position: absolute;
+        }
+        .bomb {
+            position: relative;
+        }
+        #scoreTab,
+        #highScoreTab,
+        #startMessage,
+        #gameOver,
+        #newHighScore,
+        #topList {
+            color: white;
+            position: relative;
+            top: 15px;
+            left: 15px;
+            font-size: small;
+        }
+    </style>
+</head>
+<body>
+    <div id="gameArea"></div>
+</body>
+</html>
